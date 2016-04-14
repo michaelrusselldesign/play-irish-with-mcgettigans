@@ -215,7 +215,7 @@ header {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */
-  height: 650px;
+  height: auto;
   text-align: center; }
   .spotify-player h2 {
     font-size: 2em; }
