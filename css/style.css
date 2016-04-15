@@ -1,6 +1,9 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 body {
-  background-color: aliceblue; }
+  background-color: aliceblue;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased; }
 
 html {
   color: #FFF;
