@@ -258,6 +258,7 @@ header {
     max-width: 750px;
     text-align: center;
     margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
     font-size: 1.2em; }
   .featured-artist .featured-artist-headline {
     font-size: 1.8em; }
