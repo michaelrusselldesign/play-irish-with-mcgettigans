@@ -260,8 +260,9 @@ header {
     margin: 0 auto;
     -webkit-font-smoothing: antialiased;
     font-size: 1.2em; }
-  .featured-artist .featured-artist-headline {
-    font-size: 1.8em; }
+  .featured-artist .featured-artist-headline h3 {
+    font-size: 1.8em;
+    font-weight: 400; }
   .featured-artist .featured-artist-quote p {
     font-weight: bold;
     font-size: 1em;
