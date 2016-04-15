@@ -193,11 +193,11 @@ header {
     display: block;
     font-size: 2.5em;
     padding: 0 10px;
-    letter-spacing: 0.6px; }
+    letter-spacing: 2.6px; }
   .title-container .bottom {
     display: block;
     font-size: 1.2em;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.4px;
     margin-top: 10px;
     padding: 0 10px; }
 
@@ -251,7 +251,7 @@ header {
   text-align: center;
   margin: 0 auto; }
   .featured-artist .featured-artist-blurb {
-    margin-top: 15em; }
+    margin-top: 18em; }
   .featured-artist h2 {
     padding-top: 1em; }
   .featured-artist p {
@@ -286,5 +286,28 @@ header {
       .cta-container .listen-now a:hover {
         color: #f3c13c;
         background: #FFF; }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em; }
+  .social-icons h3 {
+    margin-right: 20px; }
+  .social-icons .twitter svg {
+    margin: 0 auto;
+    fill: white; }
+    .social-icons .twitter svg:hover {
+      fill: #4099FF; }
+  .social-icons .facebook svg {
+    margin: 0 auto;
+    fill: white; }
+    .social-icons .facebook svg:hover {
+      fill: #6d84b4; }
+  .social-icons .youtube svg {
+    margin: 0 auto;
+    fill: white; }
+    .social-icons .youtube svg:hover {
+      fill: #FD3D40; }
 
 /*# sourceMappingURL=style.css.map */
