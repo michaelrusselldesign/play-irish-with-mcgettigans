@@ -177,6 +177,9 @@ header {
   color: #f3c13c;
   height: 550px;
   width: 100%; }
+  @media screen and (max-width: 480px) {
+    header {
+      background-position: 80% 30%; } }
   header h1 span {
     background: #FFF;
     text-transform: uppercase;
@@ -220,7 +223,8 @@ header {
   /* IE6-9 */
   height: auto;
   text-align: center;
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+  position: relative; }
   .spotify-player h2 {
     font-size: 2em; }
 
@@ -233,6 +237,9 @@ header {
     max-width: 750px;
     text-align: center;
     margin: 0 auto; }
+    @media screen and (max-width: 480px) {
+      .about p {
+        max-width: 300px; } }
 
 .logos {
   background: #FFF;
@@ -242,6 +249,14 @@ header {
     width: 75%;
     margin: 0 auto;
     padding: 10px; }
+  @media screen and (min-width: 768px) and (max-width: 979px) {
+    .logos {
+      height: auto;
+      width: 100%; } }
+  @media screen and (max-width: 480px) {
+    .logos {
+      height: auto;
+      padding: 10px; } }
 
 .featured-artist {
   background: url("../saint-sister.jpg");
@@ -255,6 +270,9 @@ header {
     @media screen and (min-width: 768px) and (max-width: 979px) {
       .featured-artist .featured-artist-blurb {
         margin-top: 0; } }
+    @media screen and (max-width: 480px) {
+      .featured-artist .featured-artist-blurb {
+        margin-top: 1em; } }
   .featured-artist h2 {
     padding-top: 1em; }
   .featured-artist p {
@@ -268,6 +286,10 @@ header {
         line-height: 2;
         font-size: 1.5em;
         max-width: 650px; } }
+    @media screen and (max-width: 480px) {
+      .featured-artist p {
+        max-width: 350px;
+        line-height: 1.8; } }
   .featured-artist .featured-artist-headline h3 {
     font-size: 1.8em;
     font-weight: 400; }
