@@ -247,11 +247,14 @@ header {
   background: url("../saint-sister.jpg");
   background-repeat: no-repeat;
   background-position: 50% 100%;
-  height: 900px;
+  height: auto;
   text-align: center;
   margin: 0 auto; }
   .featured-artist .featured-artist-blurb {
     margin-top: 18em; }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      .featured-artist .featured-artist-blurb {
+        margin-top: 0; } }
   .featured-artist h2 {
     padding-top: 1em; }
   .featured-artist p {
@@ -260,6 +263,11 @@ header {
     margin: 0 auto;
     -webkit-font-smoothing: antialiased;
     font-size: 1.2em; }
+    @media screen and (min-width: 768px) and (max-width: 979px) {
+      .featured-artist p {
+        line-height: 2;
+        font-size: 1.5em;
+        max-width: 650px; } }
   .featured-artist .featured-artist-headline h3 {
     font-size: 1.8em;
     font-weight: 400; }
