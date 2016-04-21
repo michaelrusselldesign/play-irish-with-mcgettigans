@@ -283,6 +283,8 @@ header {
   .featured-artist a {
     color: #FFF;
     text-decoration: none; }
+    .featured-artist a:hover, .featured-artist a:visted {
+      color: #f3c13c; }
   .featured-artist h2 {
     padding-top: 1em; }
   .featured-artist p {
