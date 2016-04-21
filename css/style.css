@@ -197,15 +197,16 @@ header {
     color: #f3c13c; }
   .title-container .top {
     display: block;
-    font-size: 2.5em;
+    font-size: 2.4em;
     padding: 0 10px;
-    letter-spacing: 2.6px; }
+    letter-spacing: 2.6px;
+    text-align: center; }
   .title-container .bottom {
     display: block;
-    font-size: 1.2em;
-    letter-spacing: 2.4px;
+    font-size: 1.3em;
     margin-top: 10px;
-    padding: 0 10px; }
+    padding: 0 10px;
+    text-align: center; }
 
 .spotify-player {
   background: #f3c13c;
@@ -279,6 +280,9 @@ header {
     @media screen and (max-width: 480px) {
       .featured-artist .featured-artist-blurb {
         margin-top: 1em; } }
+  .featured-artist a {
+    color: #FFF;
+    text-decoration: none; }
   .featured-artist h2 {
     padding-top: 1em; }
   .featured-artist p {
@@ -334,16 +338,16 @@ header {
     margin: 0 auto;
     fill: white; }
     .social-icons .twitter svg:hover {
-      fill: #4099FF; }
+      fill: #f3c13c; }
   .social-icons .facebook svg {
     margin: 0 auto;
     fill: white; }
     .social-icons .facebook svg:hover {
-      fill: #6d84b4; }
+      fill: #f3c13c; }
   .social-icons .youtube svg {
     margin: 0 auto;
     fill: white; }
     .social-icons .youtube svg:hover {
-      fill: #FD3D40; }
+      fill: #f3c13c; }
 
 /*# sourceMappingURL=style.css.map */
