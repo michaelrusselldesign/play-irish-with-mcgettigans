@@ -1,6 +1,9 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 body{
-    background-color: $secondary-color;
+    background-color: aliceblue;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
 }
 
 html {
@@ -82,6 +85,9 @@ textarea {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 2em;
+  -webkit-box-shadow: 0px -1px 69px 12px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px -1px 69px 12px rgba(0,0,0,0.2);
+  box-shadow: 0px -1px 69px 12px rgba(0,0,0,0.2);
 }
 
 
